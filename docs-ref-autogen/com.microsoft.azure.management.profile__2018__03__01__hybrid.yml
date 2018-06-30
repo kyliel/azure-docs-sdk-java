@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  id: profile__2018__03__01__hybrid
+  children:
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure._configurable
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid.yml
+  langs:
+  - java
+  name: com.microsoft.azure.management.profile_2018_03_01_hybrid
+  nameWithType: com.microsoft.azure.management.profile_2018_03_01_hybrid
+  fullName: com.microsoft.azure.management.profile_2018_03_01_hybrid
+  type: Namespace
+  source:
+    remote:
+      path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 6
+  summary: <p>This package contains the classes for <xref uid="com.microsoft.azure.management.profile__2018__03__01__hybrid._azure" data-throw-if-not-resolved="false">Azure</xref>. </p>
+  syntax:
+    content: package com.microsoft.azure.management.profile_2018_03_01_hybrid
+references:
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  name: Azure
+  nameWithType: Azure
+  fullName: com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure
+  type: Class
+  summary: <p>Entry point to <xref uid="com.microsoft.azure.management.profile__2018__03__01__hybrid._azure" data-throw-if-not-resolved="false">Azure</xref> ContainerService resource management. </p>
+  syntax:
+    content: public class Azure
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure._configurable
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure._configurable.yml
+  name: Azure.Configurable
+  nameWithType: Azure.Configurable
+  fullName: com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.Configurable
+  type: Interface
+  summary: <p>The interface allowing configurations to be set. </p>
+  syntax:
+    content: public interface Configurable

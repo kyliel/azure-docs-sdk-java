@@ -943,16 +943,6 @@ references:
   summary: <p>Grouping of generic resource update stages. </p>
   syntax:
     content: public interface UpdateStages
-- uid: com.microsoft.azure.management.resources._resource_group._update_stages
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources._resource_group._update_stages.yml
-  name: ResourceGroup.UpdateStages
-  nameWithType: ResourceGroup.UpdateStages
-  fullName: com.microsoft.azure.management.resources.ResourceGroup.UpdateStages
-  type: Interface
-  summary: <p>Grouping of all the resource group update stages. </p>
-  syntax:
-    content: public interface UpdateStages
 - uid: com.microsoft.azure.management.resources._policy_definition._update_stages
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._policy_definition._update_stages.yml
@@ -961,6 +951,16 @@ references:
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages
   type: Interface
   summary: <p>Grouping of all the policy update stages. </p>
+  syntax:
+    content: public interface UpdateStages
+- uid: com.microsoft.azure.management.resources._resource_group._update_stages
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._resource_group._update_stages.yml
+  name: ResourceGroup.UpdateStages
+  nameWithType: ResourceGroup.UpdateStages
+  fullName: com.microsoft.azure.management.resources.ResourceGroup.UpdateStages
+  type: Interface
+  summary: <p>Grouping of all the resource group update stages. </p>
   syntax:
     content: public interface UpdateStages
 - uid: com.microsoft.azure.management.resources._generic_resource._definition_stages._with_api_version
@@ -983,6 +983,16 @@ references:
   summary: <p>The template for a generic resource update operation for specifying the resource provider API version. </p>
   syntax:
     content: public interface WithApiVersion
+- uid: com.microsoft.azure.management.resources._policy_definition._definition_stages._with_create
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._policy_definition._definition_stages._with_create.yml
+  name: PolicyDefinition.DefinitionStages.WithCreate
+  nameWithType: PolicyDefinition.DefinitionStages.WithCreate
+  fullName: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithCreate
+  type: Interface
+  summary: <p>A policy definition with sufficient inputs to create a new policy in the cloud, but exposing additional optional inputs to specify. </p>
+  syntax:
+    content: public interface WithCreate extends Creatable<PolicyDefinition>,PolicyDefinition.DefinitionStages.WithDescription,PolicyDefinition.DefinitionStages.WithDisplayName,PolicyDefinition.DefinitionStages.WithPolicyType
 - uid: com.microsoft.azure.management.resources._generic_resource._definition_stages._with_create
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._generic_resource._definition_stages._with_create.yml
@@ -1003,16 +1013,6 @@ references:
   summary: <p>A policy assignment with sufficient inputs to create a new policy assignment in the cloud, but exposing additional optional inputs to specify. </p>
   syntax:
     content: public interface WithCreate extends Creatable<PolicyAssignment>,PolicyAssignment.DefinitionStages.WithDisplayName
-- uid: com.microsoft.azure.management.resources._policy_definition._definition_stages._with_create
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources._policy_definition._definition_stages._with_create.yml
-  name: PolicyDefinition.DefinitionStages.WithCreate
-  nameWithType: PolicyDefinition.DefinitionStages.WithCreate
-  fullName: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithCreate
-  type: Interface
-  summary: <p>A policy definition with sufficient inputs to create a new policy in the cloud, but exposing additional optional inputs to specify. </p>
-  syntax:
-    content: public interface WithCreate extends Creatable<PolicyDefinition>,PolicyDefinition.DefinitionStages.WithDescription,PolicyDefinition.DefinitionStages.WithDisplayName,PolicyDefinition.DefinitionStages.WithPolicyType
 - uid: com.microsoft.azure.management.resources._deployment._definition_stages._with_create
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployment._definition_stages._with_create.yml
@@ -1103,16 +1103,6 @@ references:
   summary: <p>A generic resource definition allowing resource group to be specified. </p>
   syntax:
     content: public interface WithGroup extends GroupableResource<TManager, InnerT>.DefinitionStages.WithGroup<WithResourceType>
-- uid: com.microsoft.azure.management.resources._deployment._update_stages._with_mode
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources._deployment._update_stages._with_mode.yml
-  name: Deployment.UpdateStages.WithMode
-  nameWithType: Deployment.UpdateStages.WithMode
-  fullName: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithMode
-  type: Interface
-  summary: <p>A deployment update allowing to change the deployment mode. </p>
-  syntax:
-    content: public interface WithMode
 - uid: com.microsoft.azure.management.resources._deployment._definition_stages._with_mode
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployment._definition_stages._with_mode.yml
@@ -1123,16 +1113,16 @@ references:
   summary: <p>A deployment definition allowing the deployment mode to be specified. </p>
   syntax:
     content: public interface WithMode
-- uid: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters
+- uid: com.microsoft.azure.management.resources._deployment._update_stages._with_mode
   parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters.yml
-  name: Deployment.UpdateStages.WithParameters
-  nameWithType: Deployment.UpdateStages.WithParameters
-  fullName: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithParameters
+  href: com.microsoft.azure.management.resources._deployment._update_stages._with_mode.yml
+  name: Deployment.UpdateStages.WithMode
+  nameWithType: Deployment.UpdateStages.WithMode
+  fullName: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithMode
   type: Interface
-  summary: <p>A deployment update allowing to change the parameters. </p>
+  summary: <p>A deployment update allowing to change the deployment mode. </p>
   syntax:
-    content: public interface WithParameters
+    content: public interface WithMode
 - uid: com.microsoft.azure.management.resources._deployment._definition_stages._with_parameters
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployment._definition_stages._with_parameters.yml
@@ -1141,6 +1131,16 @@ references:
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithParameters
   type: Interface
   summary: <p>A deployment definition allowing the parameters to be specified. </p>
+  syntax:
+    content: public interface WithParameters
+- uid: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._deployment._update_stages._with_parameters.yml
+  name: Deployment.UpdateStages.WithParameters
+  nameWithType: Deployment.UpdateStages.WithParameters
+  fullName: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithParameters
+  type: Interface
+  summary: <p>A deployment update allowing to change the parameters. </p>
   syntax:
     content: public interface WithParameters
 - uid: com.microsoft.azure.management.resources._generic_resource._update_stages._with_parent_resource
@@ -1193,16 +1193,6 @@ references:
   summary: <p>A policy assignment allowing the policy definition to be set. </p>
   syntax:
     content: public interface WithPolicyDefinition
-- uid: com.microsoft.azure.management.resources._policy_definition._definition_stages._with_policy_rule
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources._policy_definition._definition_stages._with_policy_rule.yml
-  name: PolicyDefinition.DefinitionStages.WithPolicyRule
-  nameWithType: PolicyDefinition.DefinitionStages.WithPolicyRule
-  fullName: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithPolicyRule
-  type: Interface
-  summary: <p>A policy definition allowing the policy rule to be set. </p>
-  syntax:
-    content: public interface WithPolicyRule
 - uid: com.microsoft.azure.management.resources._policy_definition._update_stages._with_policy_rule
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._policy_definition._update_stages._with_policy_rule.yml
@@ -1213,16 +1203,16 @@ references:
   summary: <p>A policy definition allowing the policy rule to be set. </p>
   syntax:
     content: public interface WithPolicyRule
-- uid: com.microsoft.azure.management.resources._policy_definition._definition_stages._with_policy_type
+- uid: com.microsoft.azure.management.resources._policy_definition._definition_stages._with_policy_rule
   parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources._policy_definition._definition_stages._with_policy_type.yml
-  name: PolicyDefinition.DefinitionStages.WithPolicyType
-  nameWithType: PolicyDefinition.DefinitionStages.WithPolicyType
-  fullName: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithPolicyType
+  href: com.microsoft.azure.management.resources._policy_definition._definition_stages._with_policy_rule.yml
+  name: PolicyDefinition.DefinitionStages.WithPolicyRule
+  nameWithType: PolicyDefinition.DefinitionStages.WithPolicyRule
+  fullName: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithPolicyRule
   type: Interface
-  summary: <p>A policy definition specifying the policy type to be blob. </p>
+  summary: <p>A policy definition allowing the policy rule to be set. </p>
   syntax:
-    content: public interface WithPolicyType
+    content: public interface WithPolicyRule
 - uid: com.microsoft.azure.management.resources._policy_definition._update_stages._with_policy_type
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._policy_definition._update_stages._with_policy_type.yml
@@ -1231,6 +1221,16 @@ references:
   fullName: com.microsoft.azure.management.resources.PolicyDefinition.UpdateStages.WithPolicyType
   type: Interface
   summary: <p>A policy definition allowing the policy type to be set. </p>
+  syntax:
+    content: public interface WithPolicyType
+- uid: com.microsoft.azure.management.resources._policy_definition._definition_stages._with_policy_type
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._policy_definition._definition_stages._with_policy_type.yml
+  name: PolicyDefinition.DefinitionStages.WithPolicyType
+  nameWithType: PolicyDefinition.DefinitionStages.WithPolicyType
+  fullName: com.microsoft.azure.management.resources.PolicyDefinition.DefinitionStages.WithPolicyType
+  type: Interface
+  summary: <p>A policy definition specifying the policy type to be blob. </p>
   syntax:
     content: public interface WithPolicyType
 - uid: com.microsoft.azure.management.resources._generic_resource._update_stages._with_properties
@@ -1273,16 +1273,6 @@ references:
   summary: <p>A policy assignment specifying the scope of the policy. </p>
   syntax:
     content: public interface WithScope
-- uid: com.microsoft.azure.management.resources._deployment._update_stages._with_template
-  parent: com.microsoft.azure.management.resources
-  href: com.microsoft.azure.management.resources._deployment._update_stages._with_template.yml
-  name: Deployment.UpdateStages.WithTemplate
-  nameWithType: Deployment.UpdateStages.WithTemplate
-  fullName: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithTemplate
-  type: Interface
-  summary: <p>A deployment update allowing to change the template. </p>
-  syntax:
-    content: public interface WithTemplate
 - uid: com.microsoft.azure.management.resources._deployment._definition_stages._with_template
   parent: com.microsoft.azure.management.resources
   href: com.microsoft.azure.management.resources._deployment._definition_stages._with_template.yml
@@ -1291,5 +1281,15 @@ references:
   fullName: com.microsoft.azure.management.resources.Deployment.DefinitionStages.WithTemplate
   type: Interface
   summary: <p>A deployment definition allowing the template to be specified. </p>
+  syntax:
+    content: public interface WithTemplate
+- uid: com.microsoft.azure.management.resources._deployment._update_stages._with_template
+  parent: com.microsoft.azure.management.resources
+  href: com.microsoft.azure.management.resources._deployment._update_stages._with_template.yml
+  name: Deployment.UpdateStages.WithTemplate
+  nameWithType: Deployment.UpdateStages.WithTemplate
+  fullName: com.microsoft.azure.management.resources.Deployment.UpdateStages.WithTemplate
+  type: Interface
+  summary: <p>A deployment update allowing to change the template. </p>
   syntax:
     content: public interface WithTemplate

@@ -162,6 +162,15 @@ references:
   summary: <p>This package contains the classes for NetworkManagementClient. <xref uid="com.microsoft.azure.management.network._network" data-throw-if-not-resolved="false">Network</xref> Client. </p>
   syntax:
     content: package com.microsoft.azure.management.network
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid.yml
+  name: com.microsoft.azure.management.profile_2018_03_01_hybrid
+  nameWithType: com.microsoft.azure.management.profile_2018_03_01_hybrid
+  fullName: com.microsoft.azure.management.profile_2018_03_01_hybrid
+  type: Namespace
+  summary: <p>This package contains the classes for <xref uid="com.microsoft.azure.management.profile__2018__03__01__hybrid._azure" data-throw-if-not-resolved="false">Azure</xref>. </p>
+  syntax:
+    content: package com.microsoft.azure.management.profile_2018_03_01_hybrid
 - uid: com.microsoft.azure.management.redis
   href: com.microsoft.azure.management.redis.yml
   name: com.microsoft.azure.management.redis

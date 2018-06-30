@@ -1,0 +1,2485 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  id: _azure
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  children:
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.applicationGateways()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.applicationSecurityGroups()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.appServiceEnvironments()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.appServicePlans()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.appServiceProviders()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.authenticate(AzureTokenCredentials,String)
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.authenticate(RestClient,String)
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.availabilitySets()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.availableEndpointServices()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.bgpServiceCommunities()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.billingMeters()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.certificates()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.ComputeUsages()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.configure()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.connectionMonitors()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.defaultSecurityRules()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.deletedWebApps()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.deploymentOperations()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.deployments()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.diagnostics()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.disks()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.expressRouteCircuitAuthorizations()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.expressRouteCircuitPeerings()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.expressRouteCircuits()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.expressRouteServiceProviders()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.images()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.inboundNatRules()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerBackendAddressPools()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerFrontendIPConfigurations()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerLoadBalancingRules()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerNetworkInterfaces()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerProbes()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancers()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.localNetworkGateways()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkInterfaceIPConfigurations()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkInterfaceLoadBalancers()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkInterfaces()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkOperations()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkSecurityGroups()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkUsages()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkWatchers()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.packetCaptures()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.policyAssignments()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.policyDefinitions()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.publicIPAddresses()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.recommendations()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.recordSets()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resourceGroups()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resourceHealthMetadatas()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resourceProviders()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resources()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resourceSkus()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.routeFilterRules()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.routeFilters()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.routes()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.routeTables()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.securityRules()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.snapshots()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.storageAccounts()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.storageUsages()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.subnets()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.tags()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineExtensionImages()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineExtensions()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineImages()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineRunCommands()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachines()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineScaleSetExtensions()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineScaleSetRollingUpgrades()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineScaleSets()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineScaleSetVMs()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineSizes()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualNetworkGatewayConnections()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualNetworkGateways()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualNetworkPeerings()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualNetworks()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.webApps()
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.zones()
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: Azure
+  nameWithType: Azure
+  fullName: com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure
+  type: Class
+  source:
+    remote: &o0
+      path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 91
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  summary: <p>Entry point to <xref uid="com.microsoft.azure.management.profile__2018__03__01__hybrid._azure" data-throw-if-not-resolved="false">Azure</xref> ContainerService resource management. </p>
+  syntax: &o1
+    content: public class Azure
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.applicationGateways()
+  id: applicationGateways()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: applicationGateways()
+  nameWithType: Azure.applicationGateways()
+  fullName: ApplicationGateways com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.applicationGateways()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.applicationGateways*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 320
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public ApplicationGateways applicationGateways()
+    return:
+      type: 9ee18685
+      description: <p>Entry point to manage ApplicationGateways. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.applicationSecurityGroups()
+  id: applicationSecurityGroups()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: applicationSecurityGroups()
+  nameWithType: Azure.applicationSecurityGroups()
+  fullName: ApplicationSecurityGroups com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.applicationSecurityGroups()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.applicationSecurityGroups*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 327
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public ApplicationSecurityGroups applicationSecurityGroups()
+    return:
+      type: 0dde3bd0
+      description: <p>Entry point to manage ApplicationSecurityGroups. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.appServiceEnvironments()
+  id: appServiceEnvironments()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: appServiceEnvironments()
+  nameWithType: Azure.appServiceEnvironments()
+  fullName: AppServiceEnvironments com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.appServiceEnvironments()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.appServiceEnvironments*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 663
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public AppServiceEnvironments appServiceEnvironments()
+    return:
+      type: 26066b1b
+      description: <p>Entry point to manage AppServiceEnvironments. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.appServicePlans()
+  id: appServicePlans()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: appServicePlans()
+  nameWithType: Azure.appServicePlans()
+  fullName: AppServicePlans com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.appServicePlans()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.appServicePlans*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 670
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public AppServicePlans appServicePlans()
+    return:
+      type: 04e63a8e
+      description: <p>Entry point to manage AppServicePlans. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.appServiceProviders()
+  id: appServiceProviders()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: appServiceProviders()
+  nameWithType: Azure.appServiceProviders()
+  fullName: com.microsoft.azure.management.appservice.v2016_03_01.Providers com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.appServiceProviders()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.appServiceProviders*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 628
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public com.microsoft.azure.management.appservice.v2016_03_01.Providers appServiceProviders()
+    return:
+      type: e744ed64
+      description: <p>Entry point to manage Providers. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.authenticate(AzureTokenCredentials,String)
+  id: authenticate(AzureTokenCredentials,String)
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: authenticate(AzureTokenCredentials credentials, String subscriptionId)
+  nameWithType: Azure.authenticate(AzureTokenCredentials credentials, String subscriptionId)
+  fullName: static Azure com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.authenticate(AzureTokenCredentials credentials, String subscriptionId)
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.authenticate*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 117
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  summary: >-
+    <p>Creates an instance of <xref uid="com.microsoft.azure.management.profile__2018__03__01__hybrid._azure" data-throw-if-not-resolved="false">Azure</xref> that exposes ContainerService resource management API entry points.</p>
+
+    <p></p>
+  syntax:
+    content: public static Azure authenticate(AzureTokenCredentials credentials, String subscriptionId)
+    parameters:
+    - id: credentials
+      type: f380981c
+      description: <p>the credentials to use </p>
+    - id: subscriptionId
+      type: "26831127"
+      description: <p>the subscription UUID </p>
+    return:
+      type: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+      description: <p>the <xref uid="com.microsoft.azure.management.profile__2018__03__01__hybrid._azure" data-throw-if-not-resolved="false">Azure</xref></p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.authenticate(RestClient,String)
+  id: authenticate(RestClient,String)
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: authenticate(RestClient restClient, String subscriptionId)
+  nameWithType: Azure.authenticate(RestClient restClient, String subscriptionId)
+  fullName: static Azure com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.authenticate(RestClient restClient, String subscriptionId)
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.authenticate*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 132
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  summary: >-
+    <p>Creates an instance of <xref uid="com.microsoft.azure.management.profile__2018__03__01__hybrid._azure" data-throw-if-not-resolved="false">Azure</xref> that exposes ContainerService resource management API entry points.</p>
+
+    <p></p>
+  syntax:
+    content: public static Azure authenticate(RestClient restClient, String subscriptionId)
+    parameters:
+    - id: restClient
+      type: 9545a295
+      description: <p>the RestClient to be used for API calls. </p>
+    - id: subscriptionId
+      type: "26831127"
+      description: <p>the subscription UUID </p>
+    return:
+      type: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+      description: <p>the <xref uid="com.microsoft.azure.management.profile__2018__03__01__hybrid._azure" data-throw-if-not-resolved="false">Azure</xref></p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.availabilitySets()
+  id: availabilitySets()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: availabilitySets()
+  nameWithType: Azure.availabilitySets()
+  fullName: AvailabilitySets com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.availabilitySets()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.availabilitySets*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 208
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public AvailabilitySets availabilitySets()
+    return:
+      type: 0fc54886
+      description: <p>Entry point to manage AvailabilitySets. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.availableEndpointServices()
+  id: availableEndpointServices()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: availableEndpointServices()
+  nameWithType: Azure.availableEndpointServices()
+  fullName: AvailableEndpointServices com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.availableEndpointServices()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.availableEndpointServices*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 334
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public AvailableEndpointServices availableEndpointServices()
+    return:
+      type: 1b225b9c
+      description: <p>Entry point to manage AvailableEndpointServices. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.bgpServiceCommunities()
+  id: bgpServiceCommunities()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: bgpServiceCommunities()
+  nameWithType: Azure.bgpServiceCommunities()
+  fullName: BgpServiceCommunities com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.bgpServiceCommunities()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.bgpServiceCommunities*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 523
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public BgpServiceCommunities bgpServiceCommunities()
+    return:
+      type: 1ceddd95
+      description: <p>Entry point to manage BgpServiceCommunities. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.billingMeters()
+  id: billingMeters()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: billingMeters()
+  nameWithType: Azure.billingMeters()
+  fullName: BillingMeters com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.billingMeters()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.billingMeters*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 649
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public BillingMeters billingMeters()
+    return:
+      type: 68663d02
+      description: <p>Entry point to manage BillingMeters. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.certificates()
+  id: certificates()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: certificates()
+  nameWithType: Azure.certificates()
+  fullName: Certificates com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.certificates()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.certificates*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 607
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public Certificates certificates()
+    return:
+      type: 250d6c5a
+      description: <p>Entry point to manage Certificates. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.ComputeUsages()
+  id: ComputeUsages()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: ComputeUsages()
+  nameWithType: Azure.ComputeUsages()
+  fullName: Usages com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.ComputeUsages()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.ComputeUsages*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 243
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public Usages ComputeUsages()
+    return:
+      type: eca36e17
+      description: <p>Entry point to manage Usages. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.configure()
+  id: configure()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: configure()
+  nameWithType: Azure.configure()
+  fullName: static Configurable com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.configure()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.configure*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 107
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  summary: >-
+    <p>Get a <xref uid="com.microsoft.azure.management.profile__2018__03__01__hybrid._azure._configurable" data-throw-if-not-resolved="false">Configurable</xref> instance that can be used to create <xref uid="com.microsoft.azure.management.profile__2018__03__01__hybrid._azure" data-throw-if-not-resolved="false">Azure</xref> with optional configuration.</p>
+
+    <p></p>
+  syntax:
+    content: public static Configurable configure()
+    return:
+      type: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure._configurable
+      description: <p>the instance allowing configurations </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.connectionMonitors()
+  id: connectionMonitors()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: connectionMonitors()
+  nameWithType: Azure.connectionMonitors()
+  fullName: ConnectionMonitors com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.connectionMonitors()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.connectionMonitors*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 474
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public ConnectionMonitors connectionMonitors()
+    return:
+      type: ce9400b9
+      description: <p>Entry point to manage ConnectionMonitors. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.defaultSecurityRules()
+  id: defaultSecurityRules()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: defaultSecurityRules()
+  nameWithType: Azure.defaultSecurityRules()
+  fullName: DefaultSecurityRules com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.defaultSecurityRules()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.defaultSecurityRules*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 453
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public DefaultSecurityRules defaultSecurityRules()
+    return:
+      type: f6bbd40f
+      description: <p>Entry point to manage DefaultSecurityRules. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.deletedWebApps()
+  id: deletedWebApps()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: deletedWebApps()
+  nameWithType: Azure.deletedWebApps()
+  fullName: DeletedWebApps com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.deletedWebApps()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.deletedWebApps*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 614
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public DeletedWebApps deletedWebApps()
+    return:
+      type: c91186ee
+      description: <p>Entry point to manage DeletedWebApps. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.deploymentOperations()
+  id: deploymentOperations()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: deploymentOperations()
+  nameWithType: Azure.deploymentOperations()
+  fullName: DeploymentOperations com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.deploymentOperations()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.deploymentOperations*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 201
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public DeploymentOperations deploymentOperations()
+    return:
+      type: 5149b040
+      description: <p>Entry point to manage DeploymentOperations. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.deployments()
+  id: deployments()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: deployments()
+  nameWithType: Azure.deployments()
+  fullName: Deployments com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.deployments()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.deployments*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 166
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public Deployments deployments()
+    return:
+      type: 5f018130
+      description: <p>Entry point to manage Deployments. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.diagnostics()
+  id: diagnostics()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: diagnostics()
+  nameWithType: Azure.diagnostics()
+  fullName: Diagnostics com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.diagnostics()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.diagnostics*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 621
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public Diagnostics diagnostics()
+    return:
+      type: ad4ab636
+      description: <p>Entry point to manage Diagnostics. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.disks()
+  id: disks()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: disks()
+  nameWithType: Azure.disks()
+  fullName: Disks com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.disks()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.disks*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 299
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public Disks disks()
+    return:
+      type: 30ef4a2d
+      description: <p>Entry point to manage Disks. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.expressRouteCircuitAuthorizations()
+  id: expressRouteCircuitAuthorizations()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: expressRouteCircuitAuthorizations()
+  nameWithType: Azure.expressRouteCircuitAuthorizations()
+  fullName: ExpressRouteCircuitAuthorizations com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.expressRouteCircuitAuthorizations()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.expressRouteCircuitAuthorizations*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 341
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public ExpressRouteCircuitAuthorizations expressRouteCircuitAuthorizations()
+    return:
+      type: 4f79a91f
+      description: <p>Entry point to manage ExpressRouteCircuitAuthorizations. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.expressRouteCircuitPeerings()
+  id: expressRouteCircuitPeerings()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: expressRouteCircuitPeerings()
+  nameWithType: Azure.expressRouteCircuitPeerings()
+  fullName: ExpressRouteCircuitPeerings com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.expressRouteCircuitPeerings()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.expressRouteCircuitPeerings*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 348
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public ExpressRouteCircuitPeerings expressRouteCircuitPeerings()
+    return:
+      type: 447af38b
+      description: <p>Entry point to manage ExpressRouteCircuitPeerings. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.expressRouteCircuits()
+  id: expressRouteCircuits()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: expressRouteCircuits()
+  nameWithType: Azure.expressRouteCircuits()
+  fullName: ExpressRouteCircuits com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.expressRouteCircuits()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.expressRouteCircuits*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 355
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public ExpressRouteCircuits expressRouteCircuits()
+    return:
+      type: 41106ee5
+      description: <p>Entry point to manage ExpressRouteCircuits. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.expressRouteServiceProviders()
+  id: expressRouteServiceProviders()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: expressRouteServiceProviders()
+  nameWithType: Azure.expressRouteServiceProviders()
+  fullName: ExpressRouteServiceProviders com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.expressRouteServiceProviders()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.expressRouteServiceProviders*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 362
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public ExpressRouteServiceProviders expressRouteServiceProviders()
+    return:
+      type: 57e50cbe
+      description: <p>Entry point to manage ExpressRouteServiceProviders. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.images()
+  id: images()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: images()
+  nameWithType: Azure.images()
+  fullName: Images com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.images()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.images*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 257
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public Images images()
+    return:
+      type: 00d6f0ff
+      description: <p>Entry point to manage Images. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.inboundNatRules()
+  id: inboundNatRules()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: inboundNatRules()
+  nameWithType: Azure.inboundNatRules()
+  fullName: InboundNatRules com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.inboundNatRules()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.inboundNatRules*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 390
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public InboundNatRules inboundNatRules()
+    return:
+      type: 1d66289a
+      description: <p>Entry point to manage InboundNatRules. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerBackendAddressPools()
+  id: loadBalancerBackendAddressPools()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: loadBalancerBackendAddressPools()
+  nameWithType: Azure.loadBalancerBackendAddressPools()
+  fullName: LoadBalancerBackendAddressPools com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.loadBalancerBackendAddressPools()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerBackendAddressPools*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 376
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public LoadBalancerBackendAddressPools loadBalancerBackendAddressPools()
+    return:
+      type: 431a0591
+      description: <p>Entry point to manage LoadBalancerBackendAddressPools. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerFrontendIPConfigurations()
+  id: loadBalancerFrontendIPConfigurations()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: loadBalancerFrontendIPConfigurations()
+  nameWithType: Azure.loadBalancerFrontendIPConfigurations()
+  fullName: LoadBalancerFrontendIPConfigurations com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.loadBalancerFrontendIPConfigurations()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerFrontendIPConfigurations*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 383
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public LoadBalancerFrontendIPConfigurations loadBalancerFrontendIPConfigurations()
+    return:
+      type: bc344809
+      description: <p>Entry point to manage LoadBalancerFrontendIPConfigurations. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerLoadBalancingRules()
+  id: loadBalancerLoadBalancingRules()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: loadBalancerLoadBalancingRules()
+  nameWithType: Azure.loadBalancerLoadBalancingRules()
+  fullName: LoadBalancerLoadBalancingRules com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.loadBalancerLoadBalancingRules()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerLoadBalancingRules*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 397
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public LoadBalancerLoadBalancingRules loadBalancerLoadBalancingRules()
+    return:
+      type: 972fc9df
+      description: <p>Entry point to manage LoadBalancerLoadBalancingRules. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerNetworkInterfaces()
+  id: loadBalancerNetworkInterfaces()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: loadBalancerNetworkInterfaces()
+  nameWithType: Azure.loadBalancerNetworkInterfaces()
+  fullName: LoadBalancerNetworkInterfaces com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.loadBalancerNetworkInterfaces()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerNetworkInterfaces*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 404
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public LoadBalancerNetworkInterfaces loadBalancerNetworkInterfaces()
+    return:
+      type: c37d8591
+      description: <p>Entry point to manage LoadBalancerNetworkInterfaces. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerProbes()
+  id: loadBalancerProbes()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: loadBalancerProbes()
+  nameWithType: Azure.loadBalancerProbes()
+  fullName: LoadBalancerProbes com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.loadBalancerProbes()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerProbes*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 411
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public LoadBalancerProbes loadBalancerProbes()
+    return:
+      type: 046e02f4
+      description: <p>Entry point to manage LoadBalancerProbes. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancers()
+  id: loadBalancers()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: loadBalancers()
+  nameWithType: Azure.loadBalancers()
+  fullName: LoadBalancers com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.loadBalancers()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancers*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 369
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public LoadBalancers loadBalancers()
+    return:
+      type: 4963ac5f
+      description: <p>Entry point to manage LoadBalancers. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.localNetworkGateways()
+  id: localNetworkGateways()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: localNetworkGateways()
+  nameWithType: Azure.localNetworkGateways()
+  fullName: LocalNetworkGateways com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.localNetworkGateways()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.localNetworkGateways*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 572
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public LocalNetworkGateways localNetworkGateways()
+    return:
+      type: f860154d
+      description: <p>Entry point to manage LocalNetworkGateways. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkInterfaceIPConfigurations()
+  id: networkInterfaceIPConfigurations()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: networkInterfaceIPConfigurations()
+  nameWithType: Azure.networkInterfaceIPConfigurations()
+  fullName: NetworkInterfaceIPConfigurations com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.networkInterfaceIPConfigurations()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkInterfaceIPConfigurations*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 425
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public NetworkInterfaceIPConfigurations networkInterfaceIPConfigurations()
+    return:
+      type: 2d7ea1dc
+      description: <p>Entry point to manage NetworkInterfaceIPConfigurations. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkInterfaceLoadBalancers()
+  id: networkInterfaceLoadBalancers()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: networkInterfaceLoadBalancers()
+  nameWithType: Azure.networkInterfaceLoadBalancers()
+  fullName: NetworkInterfaceLoadBalancers com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.networkInterfaceLoadBalancers()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkInterfaceLoadBalancers*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 432
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public NetworkInterfaceLoadBalancers networkInterfaceLoadBalancers()
+    return:
+      type: 58c9f0f6
+      description: <p>Entry point to manage NetworkInterfaceLoadBalancers. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkInterfaces()
+  id: networkInterfaces()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: networkInterfaces()
+  nameWithType: Azure.networkInterfaces()
+  fullName: NetworkInterfaces com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.networkInterfaces()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkInterfaces*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 418
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public NetworkInterfaces networkInterfaces()
+    return:
+      type: 343625a1
+      description: <p>Entry point to manage NetworkInterfaces. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkOperations()
+  id: networkOperations()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: networkOperations()
+  nameWithType: Azure.networkOperations()
+  fullName: Operations com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.networkOperations()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkOperations*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 481
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public Operations networkOperations()
+    return:
+      type: eb0d6d45
+      description: <p>Entry point to manage Operations. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkSecurityGroups()
+  id: networkSecurityGroups()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: networkSecurityGroups()
+  nameWithType: Azure.networkSecurityGroups()
+  fullName: NetworkSecurityGroups com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.networkSecurityGroups()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkSecurityGroups*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 439
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public NetworkSecurityGroups networkSecurityGroups()
+    return:
+      type: a8b67c34
+      description: <p>Entry point to manage NetworkSecurityGroups. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkUsages()
+  id: networkUsages()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: networkUsages()
+  nameWithType: Azure.networkUsages()
+  fullName: com.microsoft.azure.management.network.v2017_10_01.Usages com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.networkUsages()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkUsages*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 530
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public com.microsoft.azure.management.network.v2017_10_01.Usages networkUsages()
+    return:
+      type: ce609bd2
+      description: <p>Entry point to manage Usages. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkWatchers()
+  id: networkWatchers()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: networkWatchers()
+  nameWithType: Azure.networkWatchers()
+  fullName: NetworkWatchers com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.networkWatchers()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkWatchers*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 460
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public NetworkWatchers networkWatchers()
+    return:
+      type: 5af482df
+      description: <p>Entry point to manage NetworkWatchers. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.packetCaptures()
+  id: packetCaptures()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: packetCaptures()
+  nameWithType: Azure.packetCaptures()
+  fullName: PacketCaptures com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.packetCaptures()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.packetCaptures*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 467
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public PacketCaptures packetCaptures()
+    return:
+      type: 8ad46b67
+      description: <p>Entry point to manage PacketCaptures. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.policyAssignments()
+  id: policyAssignments()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: policyAssignments()
+  nameWithType: Azure.policyAssignments()
+  fullName: PolicyAssignments com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.policyAssignments()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.policyAssignments*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 159
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public PolicyAssignments policyAssignments()
+    return:
+      type: 56fa6e0f
+      description: <p>Entry point to manage PolicyAssignments. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.policyDefinitions()
+  id: policyDefinitions()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: policyDefinitions()
+  nameWithType: Azure.policyDefinitions()
+  fullName: PolicyDefinitions com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.policyDefinitions()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.policyDefinitions*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 152
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public PolicyDefinitions policyDefinitions()
+    return:
+      type: ed77bb24
+      description: <p>Entry point to manage PolicyDefinitions. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.publicIPAddresses()
+  id: publicIPAddresses()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: publicIPAddresses()
+  nameWithType: Azure.publicIPAddresses()
+  fullName: PublicIPAddresses com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.publicIPAddresses()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.publicIPAddresses*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 488
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public PublicIPAddresses publicIPAddresses()
+    return:
+      type: 87a7a7a4
+      description: <p>Entry point to manage PublicIPAddresses. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.recommendations()
+  id: recommendations()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: recommendations()
+  nameWithType: Azure.recommendations()
+  fullName: Recommendations com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.recommendations()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.recommendations*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 635
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public Recommendations recommendations()
+    return:
+      type: 4aae5952
+      description: <p>Entry point to manage Recommendations. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.recordSets()
+  id: recordSets()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: recordSets()
+  nameWithType: Azure.recordSets()
+  fullName: RecordSets com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.recordSets()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.recordSets*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 579
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public RecordSets recordSets()
+    return:
+      type: e887fe5e
+      description: <p>Entry point to manage RecordSets. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resourceGroups()
+  id: resourceGroups()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: resourceGroups()
+  nameWithType: Azure.resourceGroups()
+  fullName: ResourceGroups com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.resourceGroups()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resourceGroups*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 187
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public ResourceGroups resourceGroups()
+    return:
+      type: c2a541cb
+      description: <p>Entry point to manage ResourceGroups. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resourceHealthMetadatas()
+  id: resourceHealthMetadatas()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: resourceHealthMetadatas()
+  nameWithType: Azure.resourceHealthMetadatas()
+  fullName: ResourceHealthMetadatas com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.resourceHealthMetadatas()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resourceHealthMetadatas*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 642
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public ResourceHealthMetadatas resourceHealthMetadatas()
+    return:
+      type: 7b93814f
+      description: <p>Entry point to manage ResourceHealthMetadatas. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resourceProviders()
+  id: resourceProviders()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: resourceProviders()
+  nameWithType: Azure.resourceProviders()
+  fullName: Providers com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.resourceProviders()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resourceProviders*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 173
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public Providers resourceProviders()
+    return:
+      type: 31c7b4eb
+      description: <p>Entry point to manage Providers. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resources()
+  id: resources()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: resources()
+  nameWithType: Azure.resources()
+  fullName: Resources com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.resources()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resources*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 180
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public Resources resources()
+    return:
+      type: c250cfdd
+      description: <p>Entry point to manage Resources. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resourceSkus()
+  id: resourceSkus()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: resourceSkus()
+  nameWithType: Azure.resourceSkus()
+  fullName: ResourceSkus com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.resourceSkus()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resourceSkus*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 264
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public ResourceSkus resourceSkus()
+    return:
+      type: 81f5865f
+      description: <p>Entry point to manage ResourceSkus. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.routeFilterRules()
+  id: routeFilterRules()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: routeFilterRules()
+  nameWithType: Azure.routeFilterRules()
+  fullName: RouteFilterRules com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.routeFilterRules()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.routeFilterRules*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 502
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public RouteFilterRules routeFilterRules()
+    return:
+      type: 6ab3b622
+      description: <p>Entry point to manage RouteFilterRules. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.routeFilters()
+  id: routeFilters()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: routeFilters()
+  nameWithType: Azure.routeFilters()
+  fullName: RouteFilters com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.routeFilters()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.routeFilters*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 495
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public RouteFilters routeFilters()
+    return:
+      type: 004a83ff
+      description: <p>Entry point to manage RouteFilters. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.routes()
+  id: routes()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: routes()
+  nameWithType: Azure.routes()
+  fullName: Routes com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.routes()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.routes*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 516
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public Routes routes()
+    return:
+      type: 226710b4
+      description: <p>Entry point to manage Routes. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.routeTables()
+  id: routeTables()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: routeTables()
+  nameWithType: Azure.routeTables()
+  fullName: RouteTables com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.routeTables()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.routeTables*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 509
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public RouteTables routeTables()
+    return:
+      type: 1986339a
+      description: <p>Entry point to manage RouteTables. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.securityRules()
+  id: securityRules()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: securityRules()
+  nameWithType: Azure.securityRules()
+  fullName: SecurityRules com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.securityRules()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.securityRules*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 446
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public SecurityRules securityRules()
+    return:
+      type: 8703b779
+      description: <p>Entry point to manage SecurityRules. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.snapshots()
+  id: snapshots()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: snapshots()
+  nameWithType: Azure.snapshots()
+  fullName: Snapshots com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.snapshots()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.snapshots*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 306
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public Snapshots snapshots()
+    return:
+      type: e6e54791
+      description: <p>Entry point to manage Snapshots. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.storageAccounts()
+  id: storageAccounts()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: storageAccounts()
+  nameWithType: Azure.storageAccounts()
+  fullName: StorageAccounts com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.storageAccounts()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.storageAccounts*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 593
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public StorageAccounts storageAccounts()
+    return:
+      type: 9ba479a8
+      description: <p>Entry point to manage StorageAccounts. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.storageUsages()
+  id: storageUsages()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: storageUsages()
+  nameWithType: Azure.storageUsages()
+  fullName: com.microsoft.azure.management.storage.v2016_01_01.Usages com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.storageUsages()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.storageUsages*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 600
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public com.microsoft.azure.management.storage.v2016_01_01.Usages storageUsages()
+    return:
+      type: a603114e
+      description: <p>Entry point to manage Usages. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.subnets()
+  id: subnets()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: subnets()
+  nameWithType: Azure.subnets()
+  fullName: Subnets com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.subnets()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.subnets*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 544
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public Subnets subnets()
+    return:
+      type: 5a21cd74
+      description: <p>Entry point to manage Subnets. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.tags()
+  id: tags()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: tags()
+  nameWithType: Azure.tags()
+  fullName: Tags com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.tags()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.tags*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 194
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public Tags tags()
+    return:
+      type: f2639f18
+      description: <p>Entry point to manage Tags. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineExtensionImages()
+  id: virtualMachineExtensionImages()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: virtualMachineExtensionImages()
+  nameWithType: Azure.virtualMachineExtensionImages()
+  fullName: VirtualMachineExtensionImages com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachineExtensionImages()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineExtensionImages*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 215
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public VirtualMachineExtensionImages virtualMachineExtensionImages()
+    return:
+      type: 19c36d8e
+      description: <p>Entry point to manage VirtualMachineExtensionImages. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineExtensions()
+  id: virtualMachineExtensions()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: virtualMachineExtensions()
+  nameWithType: Azure.virtualMachineExtensions()
+  fullName: VirtualMachineExtensions com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachineExtensions()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineExtensions*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 222
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public VirtualMachineExtensions virtualMachineExtensions()
+    return:
+      type: 30914ddc
+      description: <p>Entry point to manage VirtualMachineExtensions. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineImages()
+  id: virtualMachineImages()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: virtualMachineImages()
+  nameWithType: Azure.virtualMachineImages()
+  fullName: VirtualMachineImages com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachineImages()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineImages*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 236
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public VirtualMachineImages virtualMachineImages()
+    return:
+      type: 7a5e49db
+      description: <p>Entry point to manage VirtualMachineImages. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineRunCommands()
+  id: virtualMachineRunCommands()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: virtualMachineRunCommands()
+  nameWithType: Azure.virtualMachineRunCommands()
+  fullName: VirtualMachineRunCommands com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachineRunCommands()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineRunCommands*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 313
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public VirtualMachineRunCommands virtualMachineRunCommands()
+    return:
+      type: 0a7e1610
+      description: <p>Entry point to manage VirtualMachineRunCommands. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachines()
+  id: virtualMachines()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: virtualMachines()
+  nameWithType: Azure.virtualMachines()
+  fullName: VirtualMachines com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachines()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachines*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 229
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public VirtualMachines virtualMachines()
+    return:
+      type: b9c5649a
+      description: <p>Entry point to manage VirtualMachines. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineScaleSetExtensions()
+  id: virtualMachineScaleSetExtensions()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: virtualMachineScaleSetExtensions()
+  nameWithType: Azure.virtualMachineScaleSetExtensions()
+  fullName: VirtualMachineScaleSetExtensions com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachineScaleSetExtensions()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineScaleSetExtensions*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 278
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public VirtualMachineScaleSetExtensions virtualMachineScaleSetExtensions()
+    return:
+      type: 7799f35e
+      description: <p>Entry point to manage VirtualMachineScaleSetExtensions. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineScaleSetRollingUpgrades()
+  id: virtualMachineScaleSetRollingUpgrades()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: virtualMachineScaleSetRollingUpgrades()
+  nameWithType: Azure.virtualMachineScaleSetRollingUpgrades()
+  fullName: VirtualMachineScaleSetRollingUpgrades com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachineScaleSetRollingUpgrades()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineScaleSetRollingUpgrades*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 285
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public VirtualMachineScaleSetRollingUpgrades virtualMachineScaleSetRollingUpgrades()
+    return:
+      type: 1e7d0491
+      description: <p>Entry point to manage VirtualMachineScaleSetRollingUpgrades. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineScaleSets()
+  id: virtualMachineScaleSets()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: virtualMachineScaleSets()
+  nameWithType: Azure.virtualMachineScaleSets()
+  fullName: VirtualMachineScaleSets com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachineScaleSets()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineScaleSets*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 271
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public VirtualMachineScaleSets virtualMachineScaleSets()
+    return:
+      type: ea71e829
+      description: <p>Entry point to manage VirtualMachineScaleSets. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineScaleSetVMs()
+  id: virtualMachineScaleSetVMs()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: virtualMachineScaleSetVMs()
+  nameWithType: Azure.virtualMachineScaleSetVMs()
+  fullName: VirtualMachineScaleSetVMs com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachineScaleSetVMs()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineScaleSetVMs*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 292
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public VirtualMachineScaleSetVMs virtualMachineScaleSetVMs()
+    return:
+      type: 35267d45
+      description: <p>Entry point to manage VirtualMachineScaleSetVMs. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineSizes()
+  id: virtualMachineSizes()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: virtualMachineSizes()
+  nameWithType: Azure.virtualMachineSizes()
+  fullName: VirtualMachineSizes com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachineSizes()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineSizes*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 250
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public VirtualMachineSizes virtualMachineSizes()
+    return:
+      type: 55cac643
+      description: <p>Entry point to manage VirtualMachineSizes. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualNetworkGatewayConnections()
+  id: virtualNetworkGatewayConnections()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: virtualNetworkGatewayConnections()
+  nameWithType: Azure.virtualNetworkGatewayConnections()
+  fullName: VirtualNetworkGatewayConnections com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualNetworkGatewayConnections()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualNetworkGatewayConnections*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 565
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public VirtualNetworkGatewayConnections virtualNetworkGatewayConnections()
+    return:
+      type: 41bdbe56
+      description: <p>Entry point to manage VirtualNetworkGatewayConnections. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualNetworkGateways()
+  id: virtualNetworkGateways()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: virtualNetworkGateways()
+  nameWithType: Azure.virtualNetworkGateways()
+  fullName: VirtualNetworkGateways com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualNetworkGateways()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualNetworkGateways*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 558
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public VirtualNetworkGateways virtualNetworkGateways()
+    return:
+      type: 9d469bf3
+      description: <p>Entry point to manage VirtualNetworkGateways. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualNetworkPeerings()
+  id: virtualNetworkPeerings()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: virtualNetworkPeerings()
+  nameWithType: Azure.virtualNetworkPeerings()
+  fullName: VirtualNetworkPeerings com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualNetworkPeerings()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualNetworkPeerings*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 551
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public VirtualNetworkPeerings virtualNetworkPeerings()
+    return:
+      type: 9563510e
+      description: <p>Entry point to manage VirtualNetworkPeerings. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualNetworks()
+  id: virtualNetworks()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: virtualNetworks()
+  nameWithType: Azure.virtualNetworks()
+  fullName: VirtualNetworks com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualNetworks()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualNetworks*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 537
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public VirtualNetworks virtualNetworks()
+    return:
+      type: bf2518d5
+      description: <p>Entry point to manage VirtualNetworks. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.webApps()
+  id: webApps()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: webApps()
+  nameWithType: Azure.webApps()
+  fullName: WebApps com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.webApps()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.webApps*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 656
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public WebApps webApps()
+    return:
+      type: aa651a1d
+      description: <p>Entry point to manage WebApps. </p>
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.zones()
+  id: zones()
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  langs:
+  - java
+  name: zones()
+  nameWithType: Azure.zones()
+  fullName: Zones com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.zones()
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.zones*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 586
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  syntax:
+    content: public Zones zones()
+    return:
+      type: d7f8d1da
+      description: <p>Entry point to manage Zones. </p>
+references:
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.configure*
+  name: configure
+  nameWithType: Azure.configure
+  fullName: static Configurable com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.configure
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: f380981c
+  spec.java:
+  - name: AzureTokenCredentials
+    fullName: AzureTokenCredentials
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.authenticate*
+  name: authenticate
+  nameWithType: Azure.authenticate
+  fullName: static Azure com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.authenticate
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 9545a295
+  spec.java:
+  - name: RestClient
+    fullName: RestClient
+- uid: ed77bb24
+  spec.java:
+  - name: PolicyDefinitions
+    fullName: PolicyDefinitions
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.policyDefinitions*
+  name: policyDefinitions
+  nameWithType: Azure.policyDefinitions
+  fullName: PolicyDefinitions com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.policyDefinitions
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 56fa6e0f
+  spec.java:
+  - name: PolicyAssignments
+    fullName: PolicyAssignments
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.policyAssignments*
+  name: policyAssignments
+  nameWithType: Azure.policyAssignments
+  fullName: PolicyAssignments com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.policyAssignments
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 5f018130
+  spec.java:
+  - name: Deployments
+    fullName: Deployments
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.deployments*
+  name: deployments
+  nameWithType: Azure.deployments
+  fullName: Deployments com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.deployments
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 31c7b4eb
+  spec.java:
+  - name: Providers
+    fullName: Providers
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resourceProviders*
+  name: resourceProviders
+  nameWithType: Azure.resourceProviders
+  fullName: Providers com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.resourceProviders
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: c250cfdd
+  spec.java:
+  - name: Resources
+    fullName: Resources
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resources*
+  name: resources
+  nameWithType: Azure.resources
+  fullName: Resources com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.resources
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: c2a541cb
+  spec.java:
+  - name: ResourceGroups
+    fullName: ResourceGroups
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resourceGroups*
+  name: resourceGroups
+  nameWithType: Azure.resourceGroups
+  fullName: ResourceGroups com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.resourceGroups
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: f2639f18
+  spec.java:
+  - name: Tags
+    fullName: Tags
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.tags*
+  name: tags
+  nameWithType: Azure.tags
+  fullName: Tags com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.tags
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 5149b040
+  spec.java:
+  - name: DeploymentOperations
+    fullName: DeploymentOperations
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.deploymentOperations*
+  name: deploymentOperations
+  nameWithType: Azure.deploymentOperations
+  fullName: DeploymentOperations com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.deploymentOperations
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 0fc54886
+  spec.java:
+  - name: AvailabilitySets
+    fullName: AvailabilitySets
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.availabilitySets*
+  name: availabilitySets
+  nameWithType: Azure.availabilitySets
+  fullName: AvailabilitySets com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.availabilitySets
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 19c36d8e
+  spec.java:
+  - name: VirtualMachineExtensionImages
+    fullName: VirtualMachineExtensionImages
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineExtensionImages*
+  name: virtualMachineExtensionImages
+  nameWithType: Azure.virtualMachineExtensionImages
+  fullName: VirtualMachineExtensionImages com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachineExtensionImages
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 30914ddc
+  spec.java:
+  - name: VirtualMachineExtensions
+    fullName: VirtualMachineExtensions
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineExtensions*
+  name: virtualMachineExtensions
+  nameWithType: Azure.virtualMachineExtensions
+  fullName: VirtualMachineExtensions com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachineExtensions
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: b9c5649a
+  spec.java:
+  - name: VirtualMachines
+    fullName: VirtualMachines
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachines*
+  name: virtualMachines
+  nameWithType: Azure.virtualMachines
+  fullName: VirtualMachines com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachines
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 7a5e49db
+  spec.java:
+  - name: VirtualMachineImages
+    fullName: VirtualMachineImages
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineImages*
+  name: virtualMachineImages
+  nameWithType: Azure.virtualMachineImages
+  fullName: VirtualMachineImages com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachineImages
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: eca36e17
+  spec.java:
+  - name: Usages
+    fullName: Usages
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.ComputeUsages*
+  name: ComputeUsages
+  nameWithType: Azure.ComputeUsages
+  fullName: Usages com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.ComputeUsages
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 55cac643
+  spec.java:
+  - name: VirtualMachineSizes
+    fullName: VirtualMachineSizes
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineSizes*
+  name: virtualMachineSizes
+  nameWithType: Azure.virtualMachineSizes
+  fullName: VirtualMachineSizes com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachineSizes
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 00d6f0ff
+  spec.java:
+  - name: Images
+    fullName: Images
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.images*
+  name: images
+  nameWithType: Azure.images
+  fullName: Images com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.images
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 81f5865f
+  spec.java:
+  - name: ResourceSkus
+    fullName: ResourceSkus
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resourceSkus*
+  name: resourceSkus
+  nameWithType: Azure.resourceSkus
+  fullName: ResourceSkus com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.resourceSkus
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: ea71e829
+  spec.java:
+  - name: VirtualMachineScaleSets
+    fullName: VirtualMachineScaleSets
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineScaleSets*
+  name: virtualMachineScaleSets
+  nameWithType: Azure.virtualMachineScaleSets
+  fullName: VirtualMachineScaleSets com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachineScaleSets
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 7799f35e
+  spec.java:
+  - name: VirtualMachineScaleSetExtensions
+    fullName: VirtualMachineScaleSetExtensions
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineScaleSetExtensions*
+  name: virtualMachineScaleSetExtensions
+  nameWithType: Azure.virtualMachineScaleSetExtensions
+  fullName: VirtualMachineScaleSetExtensions com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachineScaleSetExtensions
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 1e7d0491
+  spec.java:
+  - name: VirtualMachineScaleSetRollingUpgrades
+    fullName: VirtualMachineScaleSetRollingUpgrades
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineScaleSetRollingUpgrades*
+  name: virtualMachineScaleSetRollingUpgrades
+  nameWithType: Azure.virtualMachineScaleSetRollingUpgrades
+  fullName: VirtualMachineScaleSetRollingUpgrades com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachineScaleSetRollingUpgrades
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 35267d45
+  spec.java:
+  - name: VirtualMachineScaleSetVMs
+    fullName: VirtualMachineScaleSetVMs
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineScaleSetVMs*
+  name: virtualMachineScaleSetVMs
+  nameWithType: Azure.virtualMachineScaleSetVMs
+  fullName: VirtualMachineScaleSetVMs com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachineScaleSetVMs
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 30ef4a2d
+  spec.java:
+  - name: Disks
+    fullName: Disks
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.disks*
+  name: disks
+  nameWithType: Azure.disks
+  fullName: Disks com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.disks
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: e6e54791
+  spec.java:
+  - name: Snapshots
+    fullName: Snapshots
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.snapshots*
+  name: snapshots
+  nameWithType: Azure.snapshots
+  fullName: Snapshots com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.snapshots
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 0a7e1610
+  spec.java:
+  - name: VirtualMachineRunCommands
+    fullName: VirtualMachineRunCommands
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualMachineRunCommands*
+  name: virtualMachineRunCommands
+  nameWithType: Azure.virtualMachineRunCommands
+  fullName: VirtualMachineRunCommands com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualMachineRunCommands
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 9ee18685
+  spec.java:
+  - name: ApplicationGateways
+    fullName: ApplicationGateways
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.applicationGateways*
+  name: applicationGateways
+  nameWithType: Azure.applicationGateways
+  fullName: ApplicationGateways com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.applicationGateways
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 0dde3bd0
+  spec.java:
+  - name: ApplicationSecurityGroups
+    fullName: ApplicationSecurityGroups
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.applicationSecurityGroups*
+  name: applicationSecurityGroups
+  nameWithType: Azure.applicationSecurityGroups
+  fullName: ApplicationSecurityGroups com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.applicationSecurityGroups
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 1b225b9c
+  spec.java:
+  - name: AvailableEndpointServices
+    fullName: AvailableEndpointServices
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.availableEndpointServices*
+  name: availableEndpointServices
+  nameWithType: Azure.availableEndpointServices
+  fullName: AvailableEndpointServices com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.availableEndpointServices
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 4f79a91f
+  spec.java:
+  - name: ExpressRouteCircuitAuthorizations
+    fullName: ExpressRouteCircuitAuthorizations
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.expressRouteCircuitAuthorizations*
+  name: expressRouteCircuitAuthorizations
+  nameWithType: Azure.expressRouteCircuitAuthorizations
+  fullName: ExpressRouteCircuitAuthorizations com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.expressRouteCircuitAuthorizations
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 447af38b
+  spec.java:
+  - name: ExpressRouteCircuitPeerings
+    fullName: ExpressRouteCircuitPeerings
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.expressRouteCircuitPeerings*
+  name: expressRouteCircuitPeerings
+  nameWithType: Azure.expressRouteCircuitPeerings
+  fullName: ExpressRouteCircuitPeerings com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.expressRouteCircuitPeerings
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 41106ee5
+  spec.java:
+  - name: ExpressRouteCircuits
+    fullName: ExpressRouteCircuits
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.expressRouteCircuits*
+  name: expressRouteCircuits
+  nameWithType: Azure.expressRouteCircuits
+  fullName: ExpressRouteCircuits com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.expressRouteCircuits
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 57e50cbe
+  spec.java:
+  - name: ExpressRouteServiceProviders
+    fullName: ExpressRouteServiceProviders
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.expressRouteServiceProviders*
+  name: expressRouteServiceProviders
+  nameWithType: Azure.expressRouteServiceProviders
+  fullName: ExpressRouteServiceProviders com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.expressRouteServiceProviders
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 4963ac5f
+  spec.java:
+  - name: LoadBalancers
+    fullName: LoadBalancers
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancers*
+  name: loadBalancers
+  nameWithType: Azure.loadBalancers
+  fullName: LoadBalancers com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.loadBalancers
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 431a0591
+  spec.java:
+  - name: LoadBalancerBackendAddressPools
+    fullName: LoadBalancerBackendAddressPools
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerBackendAddressPools*
+  name: loadBalancerBackendAddressPools
+  nameWithType: Azure.loadBalancerBackendAddressPools
+  fullName: LoadBalancerBackendAddressPools com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.loadBalancerBackendAddressPools
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: bc344809
+  spec.java:
+  - name: LoadBalancerFrontendIPConfigurations
+    fullName: LoadBalancerFrontendIPConfigurations
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerFrontendIPConfigurations*
+  name: loadBalancerFrontendIPConfigurations
+  nameWithType: Azure.loadBalancerFrontendIPConfigurations
+  fullName: LoadBalancerFrontendIPConfigurations com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.loadBalancerFrontendIPConfigurations
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 1d66289a
+  spec.java:
+  - name: InboundNatRules
+    fullName: InboundNatRules
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.inboundNatRules*
+  name: inboundNatRules
+  nameWithType: Azure.inboundNatRules
+  fullName: InboundNatRules com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.inboundNatRules
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 972fc9df
+  spec.java:
+  - name: LoadBalancerLoadBalancingRules
+    fullName: LoadBalancerLoadBalancingRules
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerLoadBalancingRules*
+  name: loadBalancerLoadBalancingRules
+  nameWithType: Azure.loadBalancerLoadBalancingRules
+  fullName: LoadBalancerLoadBalancingRules com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.loadBalancerLoadBalancingRules
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: c37d8591
+  spec.java:
+  - name: LoadBalancerNetworkInterfaces
+    fullName: LoadBalancerNetworkInterfaces
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerNetworkInterfaces*
+  name: loadBalancerNetworkInterfaces
+  nameWithType: Azure.loadBalancerNetworkInterfaces
+  fullName: LoadBalancerNetworkInterfaces com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.loadBalancerNetworkInterfaces
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 046e02f4
+  spec.java:
+  - name: LoadBalancerProbes
+    fullName: LoadBalancerProbes
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.loadBalancerProbes*
+  name: loadBalancerProbes
+  nameWithType: Azure.loadBalancerProbes
+  fullName: LoadBalancerProbes com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.loadBalancerProbes
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 343625a1
+  spec.java:
+  - name: NetworkInterfaces
+    fullName: NetworkInterfaces
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkInterfaces*
+  name: networkInterfaces
+  nameWithType: Azure.networkInterfaces
+  fullName: NetworkInterfaces com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.networkInterfaces
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 2d7ea1dc
+  spec.java:
+  - name: NetworkInterfaceIPConfigurations
+    fullName: NetworkInterfaceIPConfigurations
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkInterfaceIPConfigurations*
+  name: networkInterfaceIPConfigurations
+  nameWithType: Azure.networkInterfaceIPConfigurations
+  fullName: NetworkInterfaceIPConfigurations com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.networkInterfaceIPConfigurations
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 58c9f0f6
+  spec.java:
+  - name: NetworkInterfaceLoadBalancers
+    fullName: NetworkInterfaceLoadBalancers
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkInterfaceLoadBalancers*
+  name: networkInterfaceLoadBalancers
+  nameWithType: Azure.networkInterfaceLoadBalancers
+  fullName: NetworkInterfaceLoadBalancers com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.networkInterfaceLoadBalancers
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: a8b67c34
+  spec.java:
+  - name: NetworkSecurityGroups
+    fullName: NetworkSecurityGroups
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkSecurityGroups*
+  name: networkSecurityGroups
+  nameWithType: Azure.networkSecurityGroups
+  fullName: NetworkSecurityGroups com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.networkSecurityGroups
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 8703b779
+  spec.java:
+  - name: SecurityRules
+    fullName: SecurityRules
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.securityRules*
+  name: securityRules
+  nameWithType: Azure.securityRules
+  fullName: SecurityRules com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.securityRules
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: f6bbd40f
+  spec.java:
+  - name: DefaultSecurityRules
+    fullName: DefaultSecurityRules
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.defaultSecurityRules*
+  name: defaultSecurityRules
+  nameWithType: Azure.defaultSecurityRules
+  fullName: DefaultSecurityRules com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.defaultSecurityRules
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 5af482df
+  spec.java:
+  - name: NetworkWatchers
+    fullName: NetworkWatchers
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkWatchers*
+  name: networkWatchers
+  nameWithType: Azure.networkWatchers
+  fullName: NetworkWatchers com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.networkWatchers
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 8ad46b67
+  spec.java:
+  - name: PacketCaptures
+    fullName: PacketCaptures
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.packetCaptures*
+  name: packetCaptures
+  nameWithType: Azure.packetCaptures
+  fullName: PacketCaptures com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.packetCaptures
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: ce9400b9
+  spec.java:
+  - name: ConnectionMonitors
+    fullName: ConnectionMonitors
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.connectionMonitors*
+  name: connectionMonitors
+  nameWithType: Azure.connectionMonitors
+  fullName: ConnectionMonitors com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.connectionMonitors
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: eb0d6d45
+  spec.java:
+  - name: Operations
+    fullName: Operations
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkOperations*
+  name: networkOperations
+  nameWithType: Azure.networkOperations
+  fullName: Operations com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.networkOperations
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 87a7a7a4
+  spec.java:
+  - name: PublicIPAddresses
+    fullName: PublicIPAddresses
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.publicIPAddresses*
+  name: publicIPAddresses
+  nameWithType: Azure.publicIPAddresses
+  fullName: PublicIPAddresses com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.publicIPAddresses
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 004a83ff
+  spec.java:
+  - name: RouteFilters
+    fullName: RouteFilters
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.routeFilters*
+  name: routeFilters
+  nameWithType: Azure.routeFilters
+  fullName: RouteFilters com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.routeFilters
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 6ab3b622
+  spec.java:
+  - name: RouteFilterRules
+    fullName: RouteFilterRules
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.routeFilterRules*
+  name: routeFilterRules
+  nameWithType: Azure.routeFilterRules
+  fullName: RouteFilterRules com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.routeFilterRules
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 1986339a
+  spec.java:
+  - name: RouteTables
+    fullName: RouteTables
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.routeTables*
+  name: routeTables
+  nameWithType: Azure.routeTables
+  fullName: RouteTables com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.routeTables
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 226710b4
+  spec.java:
+  - name: Routes
+    fullName: Routes
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.routes*
+  name: routes
+  nameWithType: Azure.routes
+  fullName: Routes com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.routes
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 1ceddd95
+  spec.java:
+  - name: BgpServiceCommunities
+    fullName: BgpServiceCommunities
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.bgpServiceCommunities*
+  name: bgpServiceCommunities
+  nameWithType: Azure.bgpServiceCommunities
+  fullName: BgpServiceCommunities com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.bgpServiceCommunities
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: ce609bd2
+  spec.java:
+  - name: com.microsoft.azure.management.network.v2017_10_01.Usages
+    fullName: com.microsoft.azure.management.network.v2017_10_01.Usages
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.networkUsages*
+  name: networkUsages
+  nameWithType: Azure.networkUsages
+  fullName: com.microsoft.azure.management.network.v2017_10_01.Usages com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.networkUsages
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: bf2518d5
+  spec.java:
+  - name: VirtualNetworks
+    fullName: VirtualNetworks
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualNetworks*
+  name: virtualNetworks
+  nameWithType: Azure.virtualNetworks
+  fullName: VirtualNetworks com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualNetworks
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 5a21cd74
+  spec.java:
+  - name: Subnets
+    fullName: Subnets
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.subnets*
+  name: subnets
+  nameWithType: Azure.subnets
+  fullName: Subnets com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.subnets
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 9563510e
+  spec.java:
+  - name: VirtualNetworkPeerings
+    fullName: VirtualNetworkPeerings
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualNetworkPeerings*
+  name: virtualNetworkPeerings
+  nameWithType: Azure.virtualNetworkPeerings
+  fullName: VirtualNetworkPeerings com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualNetworkPeerings
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 9d469bf3
+  spec.java:
+  - name: VirtualNetworkGateways
+    fullName: VirtualNetworkGateways
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualNetworkGateways*
+  name: virtualNetworkGateways
+  nameWithType: Azure.virtualNetworkGateways
+  fullName: VirtualNetworkGateways com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualNetworkGateways
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 41bdbe56
+  spec.java:
+  - name: VirtualNetworkGatewayConnections
+    fullName: VirtualNetworkGatewayConnections
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.virtualNetworkGatewayConnections*
+  name: virtualNetworkGatewayConnections
+  nameWithType: Azure.virtualNetworkGatewayConnections
+  fullName: VirtualNetworkGatewayConnections com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.virtualNetworkGatewayConnections
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: f860154d
+  spec.java:
+  - name: LocalNetworkGateways
+    fullName: LocalNetworkGateways
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.localNetworkGateways*
+  name: localNetworkGateways
+  nameWithType: Azure.localNetworkGateways
+  fullName: LocalNetworkGateways com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.localNetworkGateways
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: e887fe5e
+  spec.java:
+  - name: RecordSets
+    fullName: RecordSets
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.recordSets*
+  name: recordSets
+  nameWithType: Azure.recordSets
+  fullName: RecordSets com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.recordSets
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: d7f8d1da
+  spec.java:
+  - name: Zones
+    fullName: Zones
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.zones*
+  name: zones
+  nameWithType: Azure.zones
+  fullName: Zones com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.zones
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 9ba479a8
+  spec.java:
+  - name: StorageAccounts
+    fullName: StorageAccounts
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.storageAccounts*
+  name: storageAccounts
+  nameWithType: Azure.storageAccounts
+  fullName: StorageAccounts com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.storageAccounts
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: a603114e
+  spec.java:
+  - name: com.microsoft.azure.management.storage.v2016_01_01.Usages
+    fullName: com.microsoft.azure.management.storage.v2016_01_01.Usages
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.storageUsages*
+  name: storageUsages
+  nameWithType: Azure.storageUsages
+  fullName: com.microsoft.azure.management.storage.v2016_01_01.Usages com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.storageUsages
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 250d6c5a
+  spec.java:
+  - name: Certificates
+    fullName: Certificates
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.certificates*
+  name: certificates
+  nameWithType: Azure.certificates
+  fullName: Certificates com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.certificates
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: c91186ee
+  spec.java:
+  - name: DeletedWebApps
+    fullName: DeletedWebApps
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.deletedWebApps*
+  name: deletedWebApps
+  nameWithType: Azure.deletedWebApps
+  fullName: DeletedWebApps com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.deletedWebApps
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: ad4ab636
+  spec.java:
+  - name: Diagnostics
+    fullName: Diagnostics
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.diagnostics*
+  name: diagnostics
+  nameWithType: Azure.diagnostics
+  fullName: Diagnostics com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.diagnostics
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: e744ed64
+  spec.java:
+  - name: com.microsoft.azure.management.appservice.v2016_03_01.Providers
+    fullName: com.microsoft.azure.management.appservice.v2016_03_01.Providers
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.appServiceProviders*
+  name: appServiceProviders
+  nameWithType: Azure.appServiceProviders
+  fullName: com.microsoft.azure.management.appservice.v2016_03_01.Providers com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.appServiceProviders
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 4aae5952
+  spec.java:
+  - name: Recommendations
+    fullName: Recommendations
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.recommendations*
+  name: recommendations
+  nameWithType: Azure.recommendations
+  fullName: Recommendations com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.recommendations
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 7b93814f
+  spec.java:
+  - name: ResourceHealthMetadatas
+    fullName: ResourceHealthMetadatas
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.resourceHealthMetadatas*
+  name: resourceHealthMetadatas
+  nameWithType: Azure.resourceHealthMetadatas
+  fullName: ResourceHealthMetadatas com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.resourceHealthMetadatas
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 68663d02
+  spec.java:
+  - name: BillingMeters
+    fullName: BillingMeters
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.billingMeters*
+  name: billingMeters
+  nameWithType: Azure.billingMeters
+  fullName: BillingMeters com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.billingMeters
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: aa651a1d
+  spec.java:
+  - name: WebApps
+    fullName: WebApps
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.webApps*
+  name: webApps
+  nameWithType: Azure.webApps
+  fullName: WebApps com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.webApps
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 26066b1b
+  spec.java:
+  - name: AppServiceEnvironments
+    fullName: AppServiceEnvironments
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.appServiceEnvironments*
+  name: appServiceEnvironments
+  nameWithType: Azure.appServiceEnvironments
+  fullName: AppServiceEnvironments com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.appServiceEnvironments
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: 04e63a8e
+  spec.java:
+  - name: AppServicePlans
+    fullName: AppServicePlans
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.appServicePlans*
+  name: appServicePlans
+  nameWithType: Azure.appServicePlans
+  fullName: AppServicePlans com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.appServicePlans
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure._configurable
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure._configurable.yml
+  name: Azure.Configurable
+  nameWithType: Azure.Configurable
+  fullName: com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.Configurable
+  type: Interface
+  summary: <p>The interface allowing configurations to be set. </p>
+  syntax:
+    content: public interface Configurable
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  name: Azure
+  nameWithType: Azure
+  fullName: com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure
+  type: Class
+  summary: <p>Entry point to <xref uid="com.microsoft.azure.management.profile__2018__03__01__hybrid._azure" data-throw-if-not-resolved="false">Azure</xref> ContainerService resource management. </p>
+  syntax: *o1

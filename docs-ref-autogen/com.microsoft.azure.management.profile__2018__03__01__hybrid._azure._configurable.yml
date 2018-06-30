@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure._configurable
+  id: _configurable
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  children:
+  - com.microsoft.azure.management.profile__2018__03__01__hybrid._azure._configurable.authenticate(AzureTokenCredentials,String)
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure._configurable.yml
+  langs:
+  - java
+  name: Azure.Configurable
+  nameWithType: Azure.Configurable
+  fullName: com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.Configurable
+  type: Interface
+  source:
+    remote: &o0
+      path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+      branch: master
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 138
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  summary: <p>The interface allowing configurations to be set. </p>
+  syntax:
+    content: public interface Configurable
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure._configurable.authenticate(AzureTokenCredentials,String)
+  id: authenticate(AzureTokenCredentials,String)
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure._configurable
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure._configurable.yml
+  langs:
+  - java
+  name: authenticate(AzureTokenCredentials credentials, String subscriptionId)
+  nameWithType: Azure.Configurable.authenticate(AzureTokenCredentials credentials, String subscriptionId)
+  fullName: Azure com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.Configurable.authenticate(AzureTokenCredentials credentials, String subscriptionId)
+  overload: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure._configurable.authenticate*
+  type: Method
+  source:
+    remote: *o0
+    path: profiles/2018-03-01-hybrid/azure/src/main/java/com/microsoft/azure/management/profile_2018_03_01_hybrid/Azure.java
+    startLine: 146
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  summary: >-
+    <p>Creates an instance of <xref uid="com.microsoft.azure.management.profile__2018__03__01__hybrid._azure" data-throw-if-not-resolved="false">Azure</xref> that exposes ContainerService management API entry points.</p>
+
+    <p></p>
+  syntax:
+    content: public Azure authenticate(AzureTokenCredentials credentials, String subscriptionId)
+    parameters:
+    - id: credentials
+      type: f380981c
+      description: <p>the credentials to use </p>
+    - id: subscriptionId
+      type: "26831127"
+      description: <p>the subscription UUID </p>
+    return:
+      type: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+      description: <p>the interface exposing ContainerService management API entry points that work across subscriptions </p>
+references:
+- uid: f380981c
+  spec.java:
+  - name: AzureTokenCredentials
+    fullName: AzureTokenCredentials
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure._configurable.authenticate*
+  name: authenticate
+  nameWithType: Azure.Configurable.authenticate
+  fullName: Azure com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure.Configurable.authenticate
+  package: com.microsoft.azure.management.profile__2018__03__01__hybrid
+- uid: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure
+  parent: com.microsoft.azure.management.profile__2018__03__01__hybrid
+  href: com.microsoft.azure.management.profile__2018__03__01__hybrid._azure.yml
+  name: Azure
+  nameWithType: Azure
+  fullName: com.microsoft.azure.management.profile_2018_03_01_hybrid.Azure
+  type: Class
+  summary: <p>Entry point to <xref uid="com.microsoft.azure.management.profile__2018__03__01__hybrid._azure" data-throw-if-not-resolved="false">Azure</xref> ContainerService resource management. </p>
+  syntax:
+    content: public class Azure
